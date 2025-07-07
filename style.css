@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  cursor: pointer;
+}
+#grey {
+  background-color: grey;
+}
+#blue {
+  background-color: blue;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+}
+#reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(173, 10, 10);
+  color: white;
+}
